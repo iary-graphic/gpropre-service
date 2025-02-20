@@ -1,0 +1,27 @@
+# Ignorer le fichier de configuration WordPress
+wp-config.php
+
+# Ignorer le dossier des uploads
+/wp-content/uploads/
+
+# Ignorer les fichiers de cache
+/wp-content/cache/
+/wp-content/upgrade/
+
+# Ignorer les dépendances (si vous utilisez Composer ou npm)
+/vendor/
+/node_modules/
+
+# Ignorer les fichiers d'environnement (souvent utilisés pour les configurations locales)
+.env
+*.env
+
+# Ignorer les fichiers de sauvegarde ou temporaires
+*.log
+*.sql
+*.zip
+*.tar.gz
+
+# Ignorer les fichiers IDE (si vous utilisez un éditeur comme VS Code ou PHPStorm)
+.idea/
+.vscode/

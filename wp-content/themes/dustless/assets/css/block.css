@@ -1,0 +1,49 @@
+.dustless-custom-list-style > li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.dustless-custom-list-style > li::before {
+  content: url("../images/list.png") !important;
+  padding-right: 10px;
+}
+/* ************************* CORE BLOCK STYLE ********************************** */
+.is-style-button-hover-primary:hover > a {
+  background: var(--wp--preset--color--primary) !important;
+  color: white !important;
+}
+.is-style-button-hover-secondary:hover > a {
+  background: var(--wp--preset--color--secondary) !important;
+  color: var(--wp--preset--color--terniary) !important;
+}
+.is-style-button-hover-terniary:hover > a {
+  background: var(--wp--preset--color--terniary) !important;
+  color: var(--wp--preset--color--secondary) !important;
+}
+.is-style-link-hover-primary ul > li > a:hover {
+  color: var(--wp--preset--color--primary) !important;
+}
+.is-style-link-hover-secondary ul > li > a:hover {
+  color: var(--wp--preset--color--secondary) !important;
+}
+.is-style-link-hover-terniary ul > li > a:hover {
+  color: var(--wp--preset--color--terniary) !important;
+}
+.is-style-title-hover-primary:hover a {
+  color: var(--wp--preset--color--primary) !important;
+}
+.is-style-title-hover-secondary:hover a {
+  color: var(--wp--preset--color--secodnary) !important;
+}
+.is-style-title-hover-terniary:hover a {
+  color: var(--wp--preset--color--terniary) !important;
+}
+/* ****** PRO ******** */
+.dustless-list-style-pro > li::before {
+  content: url("../images/list-style-pro.png");
+  padding-right: 10px;
+}
+.dustless-list-style-pro > li {
+  display: flex;
+  align-items: center;
+}
