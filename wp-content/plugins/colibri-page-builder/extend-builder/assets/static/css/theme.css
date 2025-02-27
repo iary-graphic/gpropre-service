@@ -7591,6 +7591,7 @@ hr {
     vertical-align: middle; }
 
 .page-footer.h-footer-parallax {
+display: none !important;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -13718,7 +13719,7 @@ iframe.colibri-video-background-item.ready {
   transition: .5s !important;
 }
 #colibri .style-8 > div > .colibri-menu-container > ul.colibri-menu > li#menu-item-606 {
-  background: #38abea;
+  background: #0086c6 ;
   padding-left: 15px !important;
   padding-right: 15px !important;
   border-radius: 7px;
@@ -13731,9 +13732,40 @@ iframe.colibri-video-background-item.ready {
   animation-duration: 0.5s;
   padding-top: 7px !important;
   padding-bottom: 7px !important;
-  background-color: #24b80a !important;
+  background-color: #85a537 !important;
 }
 #colibri .h-navigation_sticky .style-5-image {
   max-height: 70px !important;
   transition: .5s !important;
+}
+#colibri .style-404-icon {
+  display: none !important;
+}
+@media (max-width: 767px) {
+  #colibri .style-8 {
+      background-color:transparent !important;
+  }
+}
+#colibri .style-9-offscreen {
+  background-color: rgb(133 165 55 / 92%) !important;
+}
+#colibri .style-15 {
+  display: none !important;
+}
+#colibri .style-464-image {
+  max-height: 150px !important;
+  margin-top: -2rem;
+}
+@media (max-width: 1024px) {
+  #colibri .page-footer {
+      display: none !important;
+  }
+  #colibri .style-313 p {
+    font-size: 17px !important;
+  }
+}
+@media (max-width: 767px) { 
+  body h2 {
+    font-size: 2em !important;
+  }
 }
